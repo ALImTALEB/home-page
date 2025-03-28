@@ -1,0 +1,72 @@
+/* For larger screens (tablet and up) */
+@media (min-width: 768px) 
+{
+
+    section {
+        
+        width: 100%;
+
+    }
+    .firstContainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 50px 12px;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+
+    }
+    .containerr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    h2 {
+        font-family: "Inter";
+        font-size: 48px;
+        line-height: 1.125em;
+        font-weight: 600;
+        align-self: flex-start;
+    }
+    .cardContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .title{
+       color: #1C1812;
+       font-family: 'Gluten';
+    }
+    .paragraph {
+        color: #65625E;
+        font-family: 'Inter';
+        font-size: 14px;
+        line-height: 1.5em;
+        font-weight: 400;
+    }
+
+    .readMore {
+       
+            height: 29px;
+            width: 91px;
+            border-radius: 4px;
+            background-color: #DFDEDD;
+            color: #1C1812;
+            padding: 4px 6px;
+            font-size: 14px;
+            font-family: 'Inter';
+            cursor: pointer;
+            border: none;         
+            outline: none;         
+            text-decoration: none;
+           
+    }
+
+}
+

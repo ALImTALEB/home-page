@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+.logo img {
+    width: 57.3px;
+    height: 32px;
+}
+.caption {
+    display: none;
+}
+
+/* For larger screens (tablet and up) */
+@media (min-width: 768px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .logo img {
+        width: 71.63;
+        height: 40px;
+    }
+    .caption {
+        display: flex;
+        color: #514432;
+        font-family: 'Gluten', sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
+

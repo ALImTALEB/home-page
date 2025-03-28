@@ -1,0 +1,47 @@
+.nav-list {
+    display: none;
+}
+
+.hamburger-container {
+    display: block; 
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hamburger-icon {
+    width: 100%;  
+    height: 100%;
+    object-fit: contain;
+  }  
+
+/* For larger screens (tablet and up) */
+@media (min-width: 768px) {
+   .navigation {
+    display: flex;
+   
+   }
+   .nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style-type: none
+   }
+
+   .nav-link {
+    font-family: default (Inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #1C1812;
+    text-decoration: none;
+    border-bottom: 2px solid #1C1812;
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+  
+}
+
