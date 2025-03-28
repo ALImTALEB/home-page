@@ -1,4 +1,4 @@
-import ".Logo.css";
+import "./Logo.css";
 import logo from "../../assets/fishLogo.png";
 
 const Logo = () => {
