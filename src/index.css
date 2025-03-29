@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.footerr {
+  background-color: #1C1812;
+
+}
+
 @media (min-width: 768px) { /* Tablet */
   .container {
     width: 100%;

@@ -1,7 +1,93 @@
+.sectionWeb {
+    display: none;
+}
+
+section {
+        
+    width: 100%;
+
+}
+.firstContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerr {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: "Inter";
+    font-size: 40px;
+    line-height: 1.125em;
+    font-weight: 600;
+    align-self: flex-start;
+    border-bottom: 1px solid #C6C5C3;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #C6C5C3;
+    padding: 20px 0px;
+}
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.title{
+   color: #1C1812;
+   font-family: 'Gluten';
+}
+.paragraph {
+    color: #65625E;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+.readMore {
+   
+        height: 40px;
+        width: 106px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        color: #1C1812;
+        padding: 4px 6px;
+        font-size: 14px;
+        font-family: 'Inter';
+        cursor: pointer;
+        border: 1px solid #969491;         
+        outline: none;         
+        text-decoration: none;
+        align-self: flex-start;
+       
+}
+
 /* For larger screens (tablet and up) */
 @media (min-width: 768px) 
 {
 
+    .sectionMobile {
+        display: none;
+    }
+    .sectionWeb {
+        display: flex;
+    }
     section {
         
         width: 100%;
@@ -49,6 +135,10 @@
         font-size: 14px;
         line-height: 1.5em;
         font-weight: 400;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
     }
 
     .readMore {
