@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d dist"
   
   },
-  "homepage": "https://alimtaleb.github.io",
+  "homepage": "https://alimtaleb.github.io/home-page",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
